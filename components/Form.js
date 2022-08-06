@@ -24,7 +24,7 @@ export default function Form () {
       
       <h2>LEAVE A COMMENT</h2>
        
-      <textarea name="message"  maxlength="50" placeholder='COMMENT'/>
+      <textarea name="message"  maxLength="50" placeholder='COMMENT'/>
       
       <div className={styles.fill}>
       <input type="text" name="user_name"  placeholder='NAME'/>

@@ -12,9 +12,9 @@ export default function Nav2() {
   return (
     <nav className={styles.navigationcontainer}>
     <div className={styles.navigation}>
-          <a href="/" className={styles.brandname}>
+          <Link href="/" className={styles.brandname} passHref>
               <Socials/>
-          </a>
+          </Link>
           <button
               className={styles.hamburger} 
               onClick={() => {

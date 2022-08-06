@@ -6,7 +6,8 @@ import Link from "next/link";
 
 export default class YoutubeVideoo
 extends React.Component {
-render() {
+render()
+ {
 	const opts = {
 	height: "400",
 	width: "345",
@@ -18,8 +19,8 @@ render() {
     {youtubevids.map((youtubevid) => {
     const { id, url, title, tubeid } = youtubevid;
         return (
-            <Link href={url}>
-            <div key={id}className={styles.videocontainer}>
+            <Link href={url} key={id} passHref>
+            <div className={styles.videocontainer}>
 		        <YouTube videoId={tubeid}
 			    opts={opts} onReady={this._onReady} />
                 <div>

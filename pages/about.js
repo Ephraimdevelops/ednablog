@@ -15,7 +15,7 @@ function about (){
         <div className={styles.cont}>
         <div className={styles.kadicontainer}>
             <div className={styles.imagewaper}>
-                <Image className={styles.emage} src={edna} width={190} height={190} alt=''></Image>
+                <Image className={styles.emage} src={edna} width={190} height={190} alt="edna"></Image>
             </div>
             <p className={styles.jina}>Hello</p>
             <p className={styles.desc}>It's Edna Ngowi , BSN RN ,<br></br>
