@@ -68,7 +68,10 @@ export default function BlogPost({ post }) {
     <main className={styles.blog}>
       <div className={styles.postmain1}>
       <Image
+      src={youtube}
+       alt=''
         layout='responsive'
+        objectFit="cover"
       />
       <div className={styles.title}>
          <h2>{post.title}</h2>
