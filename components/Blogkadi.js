@@ -6,7 +6,7 @@ import Image from 'next/image';
 function Blogkadi({ title, author, coverImage, date, category, slug }){
     return(
         <div className={styles.kadicontainer}>
-  <Link href={`/posts/${slug}`}>
+  <Link href={`/posts/${slug}`} passHref>
     <div className={styles.imagewrapper}>
         <Image className={styles.imagee} src={coverImage.url} alt={author.name}></Image>
     </div>

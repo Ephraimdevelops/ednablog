@@ -20,7 +20,7 @@ function Kadi () {
             <div className={styles.imagewaper}>
                 <Image className={styles.emage} src={edna} width={190} height={190} alt=''></Image>
             </div>
-            <p className={styles.jina}> Hello, I'm Edna Ngowi</p>
+            <p className={styles.jina}> Hello,.. Edna Ngowi</p>
             <p className={styles.desc}>Bsn, RN based in America . I publish articles on things i find interesting and share them in this platform.
             Check out my socials too.</p>
             <Socials/>
