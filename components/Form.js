@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from '../styles/Form.module.css'
-import Socials from './socials';
+
 
 export default function Form () {
   const form = useRef();

@@ -1,7 +1,7 @@
 import styles from "../styles/YoutubeCard.module.css";
 import moment from "moment";
 import Link from "next/link";
-import Image from "next/image";
+
 
 
 function YoutubeCard({ title, author, coverImage, date, category, slug }) {
@@ -11,7 +11,7 @@ function YoutubeCard({ title, author, coverImage, date, category, slug }) {
     <div className={styles.kadicontainer}>
     <Link href={`/posts/${slug}`} passHref>
         <div className={styles.imagewrapper}>
-            <Image className={styles.imagee} src={coverImage.url} alt={author.name}></Image>
+            <img className={styles.imagee} src={coverImage.url} alt={author.name}></img>
         </div>
     </Link>
         <div className={styles.descriptions}>

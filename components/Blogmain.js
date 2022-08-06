@@ -2,7 +2,7 @@ import styles from '../styles/Blogmain.module.css'
 import moment from "moment";
 import Link from "next/link";
 import Socials from './socials';
-import Image from 'next/image';
+
 
 function Blogmain ({ title, coverImage, category, date, slug }) {
     return(         
@@ -10,7 +10,7 @@ function Blogmain ({ title, coverImage, category, date, slug }) {
                     <div className={styles.cardcontainer}>
                         <div className={styles.imageewrapper}>
                     <Link href={`/posts/${slug}`} passHref>
-                             <Image className={styles.imageee} src={coverImage.url} alt=''></Image>
+                             <img className={styles.imageee} src={coverImage.url} alt=''></img>
                     </Link>    
                         </div>
                         <div className={styles.description}>

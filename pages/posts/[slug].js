@@ -3,7 +3,8 @@ import styles from "../../styles/Slug.module.css";
 import moment from "moment";
 import Socials from "../../components/socials";
 import Form from "../../components/Form";
-import Image from "next/image";
+
+
 
 
 
@@ -69,7 +70,7 @@ export default function BlogPost({ post }) {
   return (
     <main className={styles.blog}>
       <div className={styles.postmain1}>
-      <Image
+      <img
         className={styles.cover}
         src={post.coverImage.url}
         alt={post.title}
