@@ -1,14 +1,14 @@
 import styles from '../styles/Blogkadi.module.css'
 import Link from 'next/link';
 import moment from "moment";
-import Image from "next/image";
+
 
 function Blogkadi({ title, author, coverImage, date, category, slug }){
     return(
         <div className={styles.kadicontainer}>
   <Link href={`/posts/${slug}`} passHref>
     <div className={styles.imagewrapper}>
-        <Image className={styles.imagee} src={coverImage.url} alt={author.name} layout='responsive'></Image>
+        <img className={styles.imagee} src={coverImage.url} alt={author.name} layout='responsive'></img>
     </div>
      </Link>
     <div className={styles.descriptions}>

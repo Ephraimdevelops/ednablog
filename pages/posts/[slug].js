@@ -2,12 +2,8 @@ import { GraphQLClient, gql } from "graphql-request";
 import styles from "../../styles/Slug.module.css";
 import moment from "moment";
 import Socials from "../../components/socials";
-import Form from "../../components/Form";
 import Image from "next/image";
-
-
-
-
+import Form from "../../components/Form";
 
 const graphcms = new GraphQLClient(
   "https://api-us-east-1.hygraph.com/v2/cl6gtu2ah3t0z01tagt079mfr/master"
@@ -72,8 +68,8 @@ export default function BlogPost({ post }) {
     <main className={styles.blog}>
       <div className={styles.postmain1}>
       <Image
-        layout='responsive'
-      ></Image>
+        layout='fill'
+      />
       <div className={styles.title}>
          <h2>{post.title}</h2>
         <div className={styles.authdetails}>
@@ -87,7 +83,9 @@ export default function BlogPost({ post }) {
         className={styles.content}
         dangerouslySetInnerHTML={{ __html: post.content.html }}
       ></div>
-      <div> <Socials></Socials></div>
+      <div> 
+        <Socials></Socials>
+      </div>
       <Form/>
       
       </div>
