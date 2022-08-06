@@ -68,7 +68,7 @@ export default function BlogPost({ post }) {
     <main className={styles.blog}>
       <div className={styles.postmain1}>
       <Image
-        layout='fill'
+        layout='responsive'
       />
       <div className={styles.title}>
          <h2>{post.title}</h2>
