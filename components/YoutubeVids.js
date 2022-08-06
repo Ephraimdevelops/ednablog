@@ -7,6 +7,7 @@ import Link from "next/link";
 export default class YoutubeVideoo
 extends React.Component {
 render(){
+    
 	const opts = {
 	height: "400",
 	width: "345",
