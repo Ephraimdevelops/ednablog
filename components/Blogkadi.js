@@ -8,7 +8,7 @@ function Blogkadi({ title, author, coverImage, date, category, slug }){
         <div className={styles.kadicontainer}>
   <Link href={`/posts/${slug}`} passHref>
     <div className={styles.imagewrapper}>
-        <Image className={styles.imagee} src={coverImage.url} alt={author.name}></Image>
+        <Image className={styles.imagee} src={coverImage.url} alt={author.name} layout='fill'></Image>
     </div>
      </Link>
     <div className={styles.descriptions}>

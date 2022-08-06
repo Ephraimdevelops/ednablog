@@ -73,6 +73,7 @@ export default function BlogPost({ post }) {
         className={styles.cover}
         src={post.coverImage.url}
         alt={post.title}
+        layout='fill'
       />
       <div className={styles.title}>
          <h2>{post.title}</h2>
