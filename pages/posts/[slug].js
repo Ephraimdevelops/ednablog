@@ -67,12 +67,10 @@ export default function BlogPost({ post }) {
   return (
     <main className={styles.blog}>
       <div className={styles.postmain1}>
-      <Image
-      src={post.coverImage.url}
-       alt=''
-        layout='responsive'
-        objectFit="cover"
-      />
+        
+        <div className={styles.mageccontainer}>
+          <Image src={post.coverImage.url} layout="fill" className={'image'} />
+        </div>
       <div className={styles.title}>
          <h2>{post.title}</h2>
         <div className={styles.authdetails}>

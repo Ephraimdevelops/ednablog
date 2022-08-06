@@ -12,7 +12,7 @@ export default function Nav2() {
   return (
     <nav className={styles.navigationcontainer}>
     <div className={styles.navigation}>
-          <Link href="/" className={styles.brandname} passHref>
+          <Link href={"/"} className={styles.brandname} passHref>
               <Socials/>
           </Link>
           <button

@@ -3,6 +3,10 @@ import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import Image from 'next/image';
 import edna from '../public/edna.jpg'
+import nsh from '../public/nsh.jpg'
+import ndd from '../public/ndd.jpg'
+import nash from '../public/nash.jpg'
+import nsd from '../public/nsd.jpg'
 
 function Gallery (){
     return(
@@ -32,29 +36,29 @@ function Gallery (){
         <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
         </SplideSlide>
         <SplideSlide>
-        <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
+        <Image className={styles.image} src={nash} width={190} height={190} alt=''></Image>
         </SplideSlide>
         <SplideSlide>
-        <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
+        <Image className={styles.image} src={ndd} width={190} height={190} alt=''></Image>
         </SplideSlide>
         <SplideSlide>
-         <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
+         <Image className={styles.image} src={nsd} width={190} height={190} alt=''></Image>
 
         </SplideSlide>
         <SplideSlide>
-        <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
+        <Image className={styles.image} src={nsh} width={190} height={190} alt=''></Image>
 
+        </SplideSlide>
+        <SplideSlide>
+
+        <Image className={styles.image} src={nsh} width={190} height={190} alt=''></Image>
         </SplideSlide>
         <SplideSlide>
 
         <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
         </SplideSlide>
         <SplideSlide>
-
-        <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
-        </SplideSlide>
-        <SplideSlide>
-        <Image className={styles.image} src={edna} width={190} height={190} alt=''></Image>
+        <Image className={styles.image} src={ndd} width={190} height={190} alt=''></Image>
         </SplideSlide>
 
 

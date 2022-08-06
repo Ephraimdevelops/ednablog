@@ -5,7 +5,7 @@ import styles from '../styles/Nav.module.css';
 function Nav() {
   return (
     <nav className={styles.navbar}>
-      <Link href="/" passHref>
+      <Link href={"/"} passHref>
         <div className={styles.Lo}>
           <h1 className={styles.logo}>Edna Ngowi</h1>
           <p className={styles.logoo}>TRAVEL & LIFESTYLE </p>
