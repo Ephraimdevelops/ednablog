@@ -3,6 +3,7 @@ import styles from "../../styles/Slug.module.css";
 import moment from "moment";
 import Socials from "../../components/socials";
 import Form from "../../components/Form";
+import Image from "next/image";
 
 
 
@@ -71,11 +72,8 @@ export default function BlogPost({ post }) {
     <main className={styles.blog}>
       <div className={styles.postmain1}>
       <Image
-        className={styles.cover}
-        src={post.coverImage.url}
-        alt={post.title}
-        layout='fill'
-      />
+        layout='responsive'
+      ></Image>
       <div className={styles.title}>
          <h2>{post.title}</h2>
         <div className={styles.authdetails}>
