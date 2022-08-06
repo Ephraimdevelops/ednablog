@@ -1,0 +1,21 @@
+.allpostscontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Allposts{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+grid-gap: 2rem;
+width: 100%;
+place-items: center;
+background-color: white;
+margin: 0 8vw;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .Allposts{
+        margin: 0;
+    }
+}

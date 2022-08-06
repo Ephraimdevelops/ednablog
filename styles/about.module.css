@@ -1,0 +1,89 @@
+.cont{
+    width: 100%;
+    height: auto;
+}
+.kadicontainer{
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 0 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px .3rem 0px rgba(12, 4, 4, 0.551);
+}
+.jina{
+    margin: 2rem auto;
+    font-size: 1.5rem; 
+}
+
+.imagewaper{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: .5rem inset salmon;
+    box-shadow: 0px 0px .5rem 0px rgba(12, 4, 4, 0.551);
+    text-align: center;
+}
+.emage{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1rem inset salmon;
+}
+.sociall{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.sociallcont{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.socialltab{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 10vh;
+    color: black;
+    gap: 4rem;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    margin: 1rem;
+    align-items: center;
+    box-shadow: 0px 0px .3rem 0px rgba(12, 4, 4, 0.551);
+}
+.socialltab:hover{
+    background-color: black;
+    color: white;
+}
+.iconi{
+    width: 100%;
+    padding: 2rem;
+    margin: 1rem;
+    object-fit: cover;
+}
+.socialltab p{
+    font-weight: 700;
+}
+.headdd{
+    font-family: 'Maybe Coffee', sans-serif;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)  {
+    .socialltab{
+        width: 100%;
+    }
+    .kadicontainer{
+        margin: 0 1rem;
+    }
+    .socialltab{
+        max-width: 80%;
+    }
+}

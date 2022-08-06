@@ -1,0 +1,58 @@
+.navbar{
+    min-width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: .5px solid rgba(128, 128, 128, 0.36);
+}
+.Lo{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+.Lo:hover{
+    color: rgb(34, 17, 17);
+}
+.logo{
+    font-size: 3rem;
+    font-weight: 1000;
+    width: 50%;
+    text-align: center;
+    font-family: "Maybe Coffee", sans-serif;
+    margin: .8rem 0;
+}
+.logoo{
+    text-align: center;
+    transform: translateX(6rem);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: black;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    line-height: 1px;
+    width: auto;
+    height: auto;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 1024px)  {
+    .Lo{
+        margin: .5rem .2rem;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logoo{
+        padding-bottom: 1rem;
+    }
+}

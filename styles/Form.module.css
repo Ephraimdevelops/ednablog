@@ -1,0 +1,106 @@
+.formy{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.formcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: rgba(243, 130, 117, 0.356);
+}
+.formu{
+    width: 100%;
+    margin: 2rem 4rem;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.formu h2{
+    font-family: 'Maybe Coffee', sans-serif;
+    margin-bottom: 2rem;
+}
+.formu textarea{
+    width: 100%;
+    height: 40vh;
+    margin: 0;
+    border: none;
+    box-shadow: 0px 0px 1rem 0px rgba(12, 4, 4, 0.551);
+}
+.formu :placeholder-shown{
+    font-weight: 900;
+    padding: 2rem ;
+    color: grey;
+}
+.fill{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    height: 10vh;
+
+}
+.formu input{
+    margin: 1rem 0;
+    width: 30%;
+    border: none;
+    box-shadow: 0px 0px .2rem 0px rgba(12, 4, 4, 0.551);
+}
+.formu button{
+    margin: 1rem 0;
+    width: 20%;
+    border: none;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0px 0px .2rem 0px rgba(12, 4, 4, 0.551);
+}
+.formu button:hover{
+    background-color: black;
+    color: salmon;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)  {
+    .fill{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formcontainer{
+        width: 100%;
+        
+    }
+    .formu textarea{
+        margin: 2rem 0;
+        margin-bottom: 4rem;
+        width: 50%;
+    }
+    .formu input{
+        width: 50%;
+    }
+    .formu button{
+        width: 100%;
+        padding: 1rem ;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        width: 100%;
+        height: auto;
+        background-color: rgb(252, 162, 152);
+        color: black;
+    }
+    .formu{
+        flex-wrap: wrap;
+        height: 100vh;
+        margin: 0;
+
+    }
+}

@@ -1,0 +1,30 @@
+.cont{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 1rem;
+    color: black;
+}
+.socialicons{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    list-style: none;
+    text-transform: uppercase;
+}
+.socialicons li{
+    padding: 1rem;
+   
+}
+.socialicons li a{
+    text-decoration: none;
+    color: salmon;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.socialicons li a:hover{
+   text-decoration: underline 1rem solid salmon;
+   font-weight: 900;
+   transition: all 1s ease-in-out;
+}

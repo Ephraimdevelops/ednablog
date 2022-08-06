@@ -1,0 +1,13 @@
+.gallerycontainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    max-width: 20%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: white;
+}

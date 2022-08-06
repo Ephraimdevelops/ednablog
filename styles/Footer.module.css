@@ -1,0 +1,121 @@
+.footer{
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px inset grey;
+    box-shadow: 10px grey;
+    background-color: black;
+    color: salmon;
+    letter-spacing: 2.2px;
+}
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4rem auto;
+    margin-bottom: 0;
+    align-items: center;
+    text-align: center;
+}
+.footerheading{
+    line-height: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+} 
+.footerheading h1{
+    font-family: "Maybe Coffee", sans-serif;
+    margin: 3rem 0;
+    line-height: 5px;
+    text-decoration: underline 2px inset salmon;
+}
+.footerheading h3{
+    font-weight: bolder;
+    text-transform: uppercase;
+   
+}
+.footergallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.footerlinks{
+    flex: 1;
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+}
+.footerlinks ul{
+    margin: 0;
+}
+
+.footerrights{
+    font-size: .8rem;
+    font-weight: 200;
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(250, 128, 114, 0.347);
+    width: 100%;  
+}
+.footersocials{
+    margin-bottom: 1rem;
+   
+}
+.footersocials ul li a{
+    color: salmon;
+    font-size: 2rem;
+
+}
+.footersocials ul li a:hover{
+    font-size: 2.3rem;
+    color: rgb(255, 186, 178);
+    transition: font-size all .5s ease-in-out;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)  {
+    .footercontainer{
+        margin: 0 ;
+        padding-top: 2.5rem ;
+        width: 100%;
+        height: auto;
+
+    }
+    .footerheading{
+        width: 100%;
+        height: auto;
+    }
+    .footergallery{
+        width: 100%;
+    }
+    .footerlinks{
+        width: 100%;
+        margin: 2rem 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footerlinks ul{
+        margin: 0;
+    }
+   
+}

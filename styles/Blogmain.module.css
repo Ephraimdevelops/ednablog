@@ -1,0 +1,67 @@
+.containerr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    transition: all .3s ease-in;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardcontainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+.imageewrapper{
+    display: flex;
+    flex: 1;
+}
+.imageee{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.description{
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .5rem 0;
+    text-transform: uppercase;
+    background-color: white;
+    height: auto;
+    box-shadow: 0px 0px .5rem 0px rgba(12, 4, 4, 0.551);
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.titlee{
+    font-size: 1.3rem;
+    margin: 2rem;
+    flex: 1;
+}
+.datee{
+    font-weight: 400;
+    font-size: 1rem;
+    flex: 1;
+}
+.categori{
+    color: salmon;
+    font-size: 1rem;
+    flex: 1;
+    font-weight: lighter;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 1024px)  {
+    .containerr{
+        width: 100%;
+    }
+}
