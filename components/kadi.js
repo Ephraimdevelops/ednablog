@@ -3,7 +3,7 @@ import edna from '../public/edna.jpg'
 import travel from '../public/travel.jpg'
 import education from '../public/education.jpg'
 import health from '../public/health.jpg'
-import Socials from './socials';
+import Socials from './Socials';
 import Image from 'next/image';
 import YoutubeVideo from './Youtube';
 import Link from 'next/link';

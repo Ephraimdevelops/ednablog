@@ -1,7 +1,7 @@
 import { GraphQLClient, gql } from "graphql-request";
 import styles from "../../styles/Slug.module.css";
 import moment from "moment";
-import Socials from "../../components/socials";
+import Socials from "../../components/Socials";
 import Image from "next/image";
 import Form from "../../components/Form";
 

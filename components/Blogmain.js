@@ -1,7 +1,8 @@
 import styles from '../styles/Blogmain.module.css'
 import moment from "moment";
 import Link from "next/link";
-import Socials from './socials';
+import Socials from './Socials';
+
 
 
 

@@ -2,7 +2,7 @@ import styles from '../styles/Nav2.module.css'
 import { useState } from "react"
 import { links } from './data';
 import React from 'react'
-import Socials from './socials'
+import Socials from './Socials'
 import { FaBars } from 'react-icons/fa'
 import Link from 'next/link';
 

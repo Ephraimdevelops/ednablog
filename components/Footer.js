@@ -1,7 +1,7 @@
 import styles from '../styles/Footer.module.css'
 import Gallery from './gallery';
 import Links from './Links';
-import Socials from './socials';
+import Socials from './Socials';
 function Footer(){
     return(
         <div className={styles.footer}>
