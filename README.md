@@ -1,4 +1,4 @@
-# ✨Digital Scribbles Blog with Jamstack✨
+# ✨Edna Ngowi Blog ✨
 
 ## Technologies used 💻:
 
