@@ -70,7 +70,7 @@ export default function BlogPost({ post }) {
   return (
     <main className={styles.blog}>
       <div className={styles.postmain1}>
-      <img
+      <Image
         className={styles.cover}
         src={post.coverImage.url}
         alt={post.title}

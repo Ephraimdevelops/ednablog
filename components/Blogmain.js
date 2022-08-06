@@ -4,6 +4,7 @@ import Link from "next/link";
 import Socials from './socials';
 
 
+
 function Blogmain ({ title, coverImage, category, date, slug }) {
     return(         
         <div className={styles.containerr}>

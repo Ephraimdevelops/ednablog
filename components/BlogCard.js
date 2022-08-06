@@ -1,6 +1,7 @@
 import styles from "../styles/BlogCard.module.css";
 import moment from "moment";
 import Link from "next/link";
+import Image from "next/image";
 
 
 
@@ -11,7 +12,7 @@ function BlogCard({ title, author, coverImage, date, category, slug }) {
     <div className={styles.kadicontainer}>
     <Link href={`/posts/${slug}`} passHref>
         <div className={styles.imagewrapper}>
-            <img className={styles.imagee} src={coverImage.url} alt={author.name} layout='fill'></img>
+            <Image className={styles.imagee} src={coverImage.url} alt={author.name} layout='responsive'></Image>
         </div>
     </Link>
         <div className={styles.descriptions}>
