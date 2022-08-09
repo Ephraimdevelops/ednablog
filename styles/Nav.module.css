@@ -54,5 +54,7 @@
     }
     .logoo{
         padding-bottom: 1rem;
+        font-size: 1.1rem;
+        transform: translateX(5.5rem);
     }
 }

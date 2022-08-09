@@ -16,7 +16,7 @@ function Footer(){
                 
 
             </div>
-                <div className={styles.footerrights}><p>All rights reserved @2022. Website designed and developed by Ephraim</p></div>
+                <div className={styles.footerrights}><p>All rights reserved @2022. Website designed and developed by Ephraim Ngowi</p></div>
         </div>
 
     );
