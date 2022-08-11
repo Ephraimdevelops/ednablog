@@ -11,7 +11,7 @@ function Contacts(){
             
             <div> 
             <p>New York City</p> 
-            <p> ednablogs@gmail.com</p> 
+            <p> mangowi21@gmail.com</p> 
             <p>+1 (133) 2549- 139</p>
             </div>
         </div>

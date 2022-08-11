@@ -43,13 +43,13 @@ function about (){
                             <p>Facebook</p>
                         </div>
                         </Link>
-                        <Link href={'https://www.tiktok.com'} passHref>
+                        <Link href={'https://www.tiktok.com/@edna_ngowi?_t=8UkhfS8udID&_r=1'} passHref>
                         <div className={styles.socialltab}>
                             <Image className={styles.iconi} src={tiktok} width={50} height={50} alt='tiktok'></Image>
                             <p>TikTok</p>
                         </div>
                         </Link>
-                        <Link href={'https://www.facebook.com/edna.ngowi'} passHref>
+                        <Link href={'mailto:mangowi21@gmail.com'} passHref>
                         <div className={styles.socialltab}>
                             <Image className={styles.iconi} src={email} width={50} height={50} alt='email'></Image>
                             <p>Or directly via Email</p>
