@@ -44,7 +44,7 @@ export const social = [
   },
   {
     id: 4,
-    url: 'https://www.tiktok.com',
+    url: 'https://www.tiktok.com/@edna_ngowi?_t=8UkhfS8udID&_r=1',
     icon: <FaTiktok />,
     net: 'TikTok'
   },
