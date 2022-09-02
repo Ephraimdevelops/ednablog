@@ -2,6 +2,8 @@ import styles from '../styles/Footer.module.css'
 import Gallery from './gallery';
 import Links from './Links';
 import Socials from './Socials';
+import Link from 'next/dist/client/link';
+
 function Footer(){
     return(
         <div className={styles.footer}>
@@ -16,7 +18,7 @@ function Footer(){
                 
 
             </div>
-                <div className={styles.footerrights}><p>All rights reserved @2022. Website designed and developed by Ephraim Ngowi</p></div>
+                <div className={styles.footerrights}><p>All rights reserved @2022. Website designed and developed by <Link href={'https://ephraimngowi.vercel.app/'}>Ephraim Ngowi</Link> </p></div>
         </div>
 
     );

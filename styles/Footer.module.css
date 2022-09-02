@@ -13,6 +13,10 @@
     color: salmon;
     letter-spacing: 2.2px;
 }
+.footer a{
+    text-decoration: 2px underline black;
+    color: inherit;
+}
 .footercontainer{
     display: flex;
     flex-wrap: wrap;
